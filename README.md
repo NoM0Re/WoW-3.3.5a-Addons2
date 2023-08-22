@@ -35,11 +35,11 @@ Have fun and I wish you good leveling, gathering, pvp and raiding :)<br/>
     
 ## **How to copy Addon configs from Character to Character/Accounts:**
 
-   Find in your World of Warcraft folder, the \WTF\Account\ACCOUNTNAME\REALMNAME\CHARNAME\SavedVariables folder<br/>
-   Copy the whole folder (SavedVariables)<br/>
-   Find the Charakter where u wanna put it in to \WTF\Account\ACCOUNTNAME\REALM\OTHERCHARNAME\ folder<br/>
-   Drag and Drop the files into the OTHERCHARNAME folder and override the files<br/>
-   Start the Game (Game must be stopped at the whole process)<br/><br/>
+   Download an Addon<br/>
+   Unzip downloaded Addon (if required)<br/>
+   Find in your World of Warcraft folder, the /Interface/Addons folder<br/>
+   Drag and drop folder/s into the addon folder (folder name should match .toc file inside; remove "-master" if needed).<br/>
+   Restart the Game<br/><br/>
    
    [![Youtube](https://img.youtube.com/vi/2Nw8vGyN-_I/0.jpg)](https://youtu.be/2Nw8vGyN-_I)
 
