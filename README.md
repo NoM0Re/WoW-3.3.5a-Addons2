@@ -29,17 +29,17 @@ Have fun and I wish you good leveling, gathering, pvp and raiding :)<br/>
 
    Download an Addon<br/>
    Unzip downloaded Addon (if required)<br/>
-   Find in your World of Warcraft folder, the wow-3.3.5a/Interface/Addons folder<br/>
-   Drag and drop files into the addon folder (folder name should match .toc file; remove "-master" if needed).<br/>
+   Find in your World of Warcraft folder, the /Interface/Addons folder<br/>
+   Drag and drop folder/s into the addon folder (folder name should match .toc file inside; remove "-master" if needed).<br/>
    Restart the Game<br/><br/>
     
 ## **How to copy Addon configs from Character to Character/Accounts:**
 
-   Download an Addon<br/>
-   Unzip downloaded Addon (if required)<br/>
-   Find in your World of Warcraft folder, the /Interface/Addons folder<br/>
-   Drag and drop folder/s into the addon folder (folder name should match .toc file inside; remove "-master" if needed).<br/>
-   Restart the Game<br/><br/>
+   Find in your World of Warcraft folder, the \WTF\Account\ACCOUNTNAME\REALMNAME\CHARNAME\SavedVariables folder<br/>
+   Copy the whole folder (SavedVariables)<br/>
+   Find the Charakter where u wanna put it in to \WTF\Account\ACCOUNTNAME\REALM\OTHERCHARNAME\ folder<br/>
+   Drag and Drop the files into the OTHERCHARNAME folder and override the files<br/>
+   Start the Game (Game must be stopped at the whole process)<br/><br/>
    
    [![Youtube](https://img.youtube.com/vi/2Nw8vGyN-_I/0.jpg)](https://youtu.be/2Nw8vGyN-_I)
 
@@ -101,6 +101,14 @@ Details! Damage Meter is a popular addon that tracks information and statistics 
 ![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/Details.png)<br/>
 [Github](https://github.com/Bunny67/Details-WotLK)<br/>
 
+## **Skada**
+Skada is a modular damage meter with various viewing modes, segmented fights and customizable windows.<br/>
+<br/>
+[Download](https://github.com/bkader/Skada-WoTLK/archive/refs/heads/main.zip)<br/>
+<br/>
+![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/Skada.png)<br/>
+[Github](https://github.com/bkader/Skada-WoTLK)<br/>
+
 ## **Omen Thread Meter**
 Omen is a threat meter. Basically, enemies in WoW decide who to attack by deciding who is the most threatening based on the abilities you use.<br/>
 <br/>
@@ -129,8 +137,18 @@ Carbonite is a google style map replacement and Questhelper for the world of Wor
 <br/>
 [Download](https://github.com/heihachi/Carbonite-3.3.5a-Remastered/archive/refs/heads/master.zip)<br/>
 <br/>
-<img src="https://github.com/NoM0Re/Addons/blob/main/Pictures/Carbonite.png" alt="Screenshot"><br/>
+![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/Carbonite.png)<br/>
 [Github](https://github.com/heihachi/Carbonite-3.3.5a-Remastered)<br/>
+
+## **Gatherer+**
+The addon does not track like a tracking ability does, rather it "remembers" where you have found various items in the past.<br/>
+It does this whenever you gather (perform herbalism, mining or opening) on an item, and records the specific map location in its history.<br/>
+When you view your World Map, you will also see the item locations marked on the particular map you are viewing there.<br/>
+Usage: **/gather**<br/>
+[Download](https://github.com/NoM0Re/Addons/raw/main/Addons/Gatherer_Wowhead335.rar)<br/>
+<br/>
+![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/gatherer.png)<br/>
+[WarmaneForum](https://forum.warmane.com/showthread.php?t=412904)<br/>
 
 ## **pMinimap**
 pMinimap is a very lightweight and streamlined Minimap addon.<br/>
@@ -156,21 +174,39 @@ Lightweight Minimap addon like Dragonflight style.<br/>
 ![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/pretty_minimap.png)<br/>
 [Github](https://github.com/s0h2x/pretty_minimap/)<br/>
 
-## **Auctionator**
-Auctionator is designed for casual everyday auction house users. Auctionator makes the auction house easier to use, by presenting auction house listings clearly and succinctly, and by eliminating the tedium involved in posting and managing auctions.
-<br/><br/>
-[Download](https://github.com/alchem1ster/WotLK-Auctionator/archive/refs/heads/main.zip)<br/>
+## **Auctionator+**
+Auctionator is designed for casual everyday auction house users. Auctionator makes the auction house easier to use, by presenting auction house listings clearly and succinctly, and by eliminating the tedium involved in posting and managing auctions.<br/>
+MoP version of the addon, with some fixes and improvements from BlueAo.<br/>
+[Download](https://github.com/NoM0Re/Addons/raw/main/Addons/Auctionator+.rar)<br/>
 <br/>
-<img src="https://github.com/NoM0Re/Addons/blob/main/Pictures/Auctionator.png" alt="Screenshot"><br/>
-[Github](https://github.com/alchem1ster/WotLK-Auctionator)<br/>
+![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/Auctionator.png)<br/>
+[Warmane Forum](https://forum.warmane.com/showthread.php?t=412904&p=3057363&viewfull=1#post3057363)<br/><br/>
 
-## **TradeSkillMaster**
-TSM is an addon designed to help both casual gold makers as well as experienced goblins streamline their gold-making processes. TSM's features include everything from improving the native crafting and auctioning experiences to helping you gather needed materials and sniping that low-hanging auction house fruit!<br/>
+## **Auctionator WatchList (Plugin for Auctionator+)**
+An addition to Auctionator, that reminds you of all items with prices below set treshold when closing the AH window.<br/>
 <br/>
-[Download](https://github.com/andrew6180/TradeSkillMaster/archive/refs/heads/master.zip)<br/>
+[Download](https://github.com/NoM0Re/Addons/raw/main/Addons/Auctionator_WatchList.rar)<br/>
+<br/>
+![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/Auctionator_WatchList.png)<br/>
+[Warmane Forum](https://forum.warmane.com/showthread.php?t=412904&p=3057363&viewfull=1#post3057363)<br/><br/>
+
+## **MarketWatcher+**
+Market Watcher is an addon that scans individual items or collection of items instead of the entire auction house at once.<br/>
+It also (optionally) records many snapshots of the auction house for user specified items.<br/>
+Original version of the addon with some fixes from BlueAo.<br/>
+[Download](https://github.com/NoM0Re/Addons/raw/main/Addons/MarketWatcher+.rar)<br/>
+<br/>
+![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/MarketWatcher.png)<br/>
+[Warmane Forum](https://forum.warmane.com/showthread.php?t=412904&p=3057363&viewfull=1#post3057363)<br/><br/>
+
+## **TradeSkillMaster+**
+TSM is an addon designed to help both casual gold makers as well as experienced goblins streamline their gold-making processes. TSM's features include everything from improving the native crafting and auctioning experiences to helping you gather needed materials and sniping that low-hanging auction house fruit!<br/>
+Fixed and reworked and enhanced from BlueAo<br/>
+<br/>
+[Download](https://github.com/NoM0Re/Addons/raw/main/Addons/TradeSkillMaster+.rar)<br/>
 <br/>
 ![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/TSM.png)<br/>
-[Github](https://github.com/andrew6180/TradeSkillMaster/)<br/>
+[Warmane Forum](https://forum.warmane.com/showthread.php?t=412904&p=3057363&viewfull=1#post3057363)<br/>
 
 ## **Chatter**
 Chatter is a comprehensive, lightweight, mega-configurable chat enhancement addon. It supports a whole bunch of stuff including.<br/>
@@ -280,7 +316,9 @@ Tidy Plates enhances World of Warcraft's nameplates. See Aggro, Life in%, and mo
 ## **ElvUI**
 ElvUI is a complete Blizzard ui replacements. This means that they already have Blizzard frames skinned, unitframes and actionbars premade, etc.<br/>
 <br/>
-[GitHub Newest](https://github.com/ElvUI-WotLK/ElvUI/archive/refs/heads/master.zip)<br/>
+[Download](https://github.com/ElvUI-WotLK/ElvUI/archive/refs/heads/master.zip)<br/>
+[Plugins for ElvUI](https://github.com/ElvUI-WotLK/ElvUI#plugins)<br/>
+[MyPlugin List](https://github.com/NoM0Re/Addons/raw/main/Addons/Plugins.zip)
 <br/>
 <img src="https://github.com/NoM0Re/Addons/blob/main/Pictures/Elvui.jpg" alt="Screenshot"><br/>
 [GitHub](https://github.com/ElvUI-WotLK/ElvUI)<br/>
@@ -448,13 +486,14 @@ Lets you switch between equipment sets easily, works with DBM weaponswitch.<br/>
 ![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/Outiftter.png)<br/>
 [WotLKAddOns](https://wotlkaddons.com/addon/outfitter)<br/>
 
-## **Postal**
+## **Postal+**
 Postal offers enhanced mailbox support by providing allot of features.<br/>
+Enhanced by BlueAo adding new features.<br/>
 <br/>
 [Download](https://github.com/NoM0Re/Addons/raw/main/Addons/Postal.zip)<br/>
 <br/>
 ![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/postal.jpg)<br/>
-[Curseforge](https://www.curseforge.com/wow/addons/postal/files/all?filter-game-version=2020709689%3A98)<br/>
+[Warmane Forum](https://forum.warmane.com/showthread.php?t=412904&p=3057363&viewfull=1#post3057363)<br/><br/>
 
 ## **DrDamage**
 DrDamage displays the calculated damage or healing of abilities with talents, gear and buffs included on your actionbar buttons. The addon also adds various statistics to the tooltips in your spellbook and on the actionbar.<br/>
@@ -467,10 +506,18 @@ DrDamage displays the calculated damage or healing of abilities with talents, ge
 ## **MikScrollingBattleText(MSBT)**
 MSBT is designed to be an extremely lightweight, efficient, and highly configurable mod that makes it easier to see combat information by scrolling the information on the screen in separate, dynamically creatable scroll areas. It is a replacement for Blizzard's Floating Combat Text and Damage output.<br/>
 <br/>
-[Download](https://github.com/NoM0Re/Addons/raw/main/Addons/Mik's%20Scrolling%20Battle%20Text.zip)<br/>
+[Download](https://github.com/NoM0Re/Addons/raw/main/Addons/MikScrollingBattleText.zip)<br/>
 <br/>
 ![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/MSBT.png)<br/>
 [WotLKAddOns](https://wotlkaddons.com/addon/mik%27s-scrolling-battle-text)<br/>
+
+## **xCT+**
+xCT+ is a combat text replacement (like MSBT).<br/>Backported from retail Pandaria, this version compared to other backports offers control over settings in-game and is more minimalistic and anti-spammy than MSBT<br/>
+<br/>
+[Download](https://github.com/Barsoomx/xCT_Plus_wotlk/archive/refs/heads/master.zip)<br/>
+<br/>
+![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/xCT.PNG)<br/>
+[GitHub](https://github.com/Barsoomx/xCT_Plus_wotlk)<br/>
 
 ## **RaidBrowser for Warmane**
 Bringing LFR to Wotlk. This addon replaces the unused (in 3.3.5a) LFR tab in the social menu with a working raid finder. Use **/rb** to open.<br/>
@@ -650,6 +697,17 @@ SoundAlerter for WoW 3.3.5a - The addon announces via sound when the enemy uses 
 ![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/Soundalerter.jpg)<br/>
 [GitHub](https://github.com/Cortes-Jeremy/SoundAlerter)<br/>
 
+## **BindPad**
+BindPad is an addon to make KeyBindings for spells, items, and macros.
+You no longer need actionbar slots just to make Key bindings for your macros etc.
+BindPad addon provides many icon slots in its frame.  You can drag and drop 
+anything into one of these slots, and click the slot to set KeyBindings.
+<br/><br/>
+[Download](https://github.com/NoM0Re/Addons/raw/main/Addons/BindPad.zip)<br/>
+<br/>
+![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/Bindpad.jpg)<br/>
+[Curseforge](https://www.curseforge.com/wow/addons/bind-pad)<br/>
+
 ## **Clique**
 Clique is a simple addon that enables powerful click-casting and hover-casting on your unit frames and in the 3D game world. You can bind virtually any mouse or keyboard combination to a spell or macro. In it's normal configuration this enables you to use the bindings over your unit frames in order to cast spells directly on that unit. This allows you to more quickly select both the spell to cast, and the target of the spell without requiring an extra click.
 <br/><br/>
@@ -721,6 +779,14 @@ Altoholic features search functionality, which allows users to search their alts
 <br/>
 ![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/Altoholic.png)<br/>
 [RisingGods](https://addons.rising-gods.de/addons/altoholic)<br/>
+
+## **Key Bind Profiles**
+This addon allows you to save keybind settings into different profiles, these profiles can be loaded and used again later. Each profile can be assigned to a specialization such that it automatically loads upon switching specs.<br/>
+<br/>
+[Download](https://github.com/NoM0Re/Addons/raw/main/Addons/KeyBindingsProfiler.zip)<br/>
+<br/>
+![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/KeyBindProfiles.jpg)<br/>
+[Curseforge](https://www.curseforge.com/wow/addons/keybindprofiles)<br/>
 
 ## **MogIt**
 MogIt is an in-game catalogue of items with the aim of helping players build their own sets for transmogrification purposes.<br/>
