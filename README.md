@@ -88,6 +88,7 @@ AtlasLoot Enhanced is an UI mod allowing for loot tables of bosses to be browsed
 ## **DBM Deadly Boss Mods**
 Deadly Boss Mods (DBM) is a popular addon that assists players in tracking and reacting to the many boss mechanics one might encounter during a dungeon or raid.<br/>
 <br/>
+[How to install for the first time](https://github.com/Zidras/DBM-Warmane#how-to-install-for-the-first-time)<br/>
 [Download](https://github.com/Zidras/DBM-Warmane/archive/refs/heads/main.zip)<br/>
 <br/>
 <img src="https://github.com/NoM0Re/Addons/blob/main/Pictures/DBM.png" alt="Screenshot">
@@ -161,7 +162,7 @@ pMinimap is a very lightweight and streamlined Minimap addon.<br/>
 ## **SexyMap**
 SexyMap completely redesigns your mini-map to give it a more “sexy” look. You can choose from a couple of pre-defined styles.<br/>
 <br/>
-[Download](https://github.com/NoM0Re/Addons/raw/main/Addons/pMinimap.zip)<br/>
+[Download](https://github.com/NoM0Re/Addons/raw/main/Addons/SexyMap.zip)<br/>
 <br/>
 ![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/SexyMap.png)<br/>
 [Felbite](https://felbite.com/addon/4737-sexymap/)<br/>
@@ -207,6 +208,13 @@ Fixed and reworked and enhanced from BlueAo<br/>
 <br/>
 ![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/TSM.png)<br/>
 [Warmane Forum](https://forum.warmane.com/showthread.php?t=412904&p=3057363&viewfull=1#post3057363)<br/>
+
+## **DalaranAH**
+**DalaranAH** is a lightweight World of Warcraft addon that simplifies interactions with the Auctionhouse NPC in Dalaran by providing a customizable button on your screen, allowing you to target, set focus and mark the AH-Bot.<br/>
+Also it opens the Auctionhouse instant, instead of clicking manually on the Gossip.<br/>
+[Download](https://github.com/NoM0Re/DalaranAH/archive/refs/heads/main.zip)<br/><br/>
+<img src="https://i.ibb.co/WzPWxH1/Dalaran-AH2.png" alt="Dalaran-AH2" border="0"> <img src="https://i.ibb.co/JKZmkjP/Dalaran-AH.png" alt="Dalaran-AH" border="0"><br/>
+[Github](https://github.com/NoM0Re/DalaranAH/)<br/>
 
 ## **Chatter**
 Chatter is a comprehensive, lightweight, mega-configurable chat enhancement addon. It supports a whole bunch of stuff including.<br/>
@@ -322,6 +330,14 @@ ElvUI is a complete Blizzard ui replacements. This means that they already have 
 <br/>
 <img src="https://github.com/NoM0Re/Addons/blob/main/Pictures/Elvui.jpg" alt="Screenshot"><br/>
 [GitHub](https://github.com/ElvUI-WotLK/ElvUI)<br/>
+
+## **EventHorizon**
+EventHorizon displays all of your class/spec's rotational abilities on a common time scale.<br/>This means that instead of seeing a regular percentage-based timer bar, EH shows you exactly what is happening in relation to everything else.<br/>If that sounds complicated at all, just look at the screenshots.<br/>
+<br/>
+[Download](https://github.com/NoM0Re/Addons/raw/main/Addons/EventHorizon.zip)<br/>
+<br/>
+![](https://github.com/NoM0Re/Addons/blob/main/Pictures/eventhorizon.gif)<br/>
+[Curseforge](https://www.curseforge.com/wow/addons/eventhorizon)<br/>
 
 ## **ForteXorcist**
 ForteXorcist is a Powerful AddOn for Cross-Dotting u keep track of every Dot u applied. It has many more Features for Warlock and Priests.<br/>
@@ -453,6 +469,13 @@ This gives you a quick overview of a character's equipment.
 ![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/InspectEquip.png)<br/>
 [WoWAce](https://www.wowace.com/projects/inspect-equip/files?filter-game-version=2020709689%3A98)<br/>
 
+## **AllStats**
+This addon moves the functionality of the stat dropdowns to a panel on the right side of the paperdoll, so that you can see all of your stats at once.<br/>
+[Download](https://github.com/NoM0Re/Addons/raw/main/Addons/AllStats.zip)<br/>
+<br/>
+![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/AllStats.png)<br/>
+[Felbite](https://felbite.com/addon/3884-all-stats/)<br/>
+
 ## **OPie**
 OPie is a radial action-binding addon for World of Warcraft. It lets you group actions into rings, which appear when you hold down a keyboard or mouse binding.<br/>When you release the binding, OPie will perform an action based on where your mouse cursor is.<br/>
 <br/>
@@ -509,7 +532,7 @@ Enhanced by BlueAo adding new features.<br/>
 <br/>
 [Download](https://github.com/NoM0Re/Addons/raw/main/Addons/Postal.zip)<br/>
 <br/>
-![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/postal.jpg)<br/>
+![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/Postal.png)<br/>
 [Warmane Forum](https://forum.warmane.com/showthread.php?t=412904&p=3057363&viewfull=1#post3057363)<br/><br/>
 
 ## **DrDamage**
@@ -666,18 +689,10 @@ Configs are done via interface or slash commands like **/awr**.<br/>
 ![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/AutomaticWeaponRemoval.png)<br/>
 [Github](https://github.com/SecretX33/AutomaticWeaponRemoval/)<br/>
 
-## **Plagued**
-During the Heroic Professor Putricide fight in Icecrown Citadel, if you receive Unbound Plague, you will begin a 10 second countdown in /yell.<br/>
-<br/>
-[Download](https://github.com/NoM0Re/Addons/raw/main/Addons/Plagued.zip)<br/>
-<br/>
-![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/Plagued1.png)<br/>
-[WoWAce](https://www.wowace.com/projects/plagued/files)<br/>
-
 ## **GladiusEx**
 The famous (and imo, far superior) arena frame AddOn GladiusEx. Gladius adds enemy unit frames to arenas for easier targeting and focusing. It is highly configurable and you can disable most features of this addon.<br/>
 <br/>
-[Download](https://github.com/NoM0Re/Addons/raw/main/Addons/GladiusEx.zip)<br/>
+[Download](https://github.com/ManneN1/GladiusEx-WotLK/archive/refs/heads/master.zip)<br/>
 <br/>
 ![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/GladiusEX.PNG)<br/>
 [Github](https://github.com/ManneN1/GladiusExBackport-WotLK)<br/>
@@ -750,8 +765,16 @@ Clique is a simple addon that enables powerful click-casting and hover-casting o
 ![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/Clique.jpeg)<br/>
 [Curseforge](https://www.curseforge.com/wow/addons/clique/files/466944)<br/>
 
+## **TipTac**
+TipTac is a tooltip enchancement addon, it allows you to configure various aspects of the tooltip, such as moving where it's shown, the font, the scale of tips, plus a lot more.
+<br/><br/>
+[Download](https://github.com/NoM0Re/Addons/raw/main/Addons/TipTac.zip)<br/>
+<br/>
+![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/tic.jpg) ![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/tic2.jpg)<br/>
+[Curseforge](https://www.curseforge.com/wow/addons/tip-tac)<br/>
+
 ## **SmartTrack**
-Smart automatic tracking for hunters with Improved tracking talent. Whenever you enter combat this addon will check your target's type (if any) and automatically change your tracking accordingly. If you change the target during combat your tracking will change too (if your new target is of different type and you can track it).
+Smart automatic tracking for hunters only with Improved tracking talent. Whenever you enter combat this addon will check your target's type (if any) and automatically change your tracking accordingly. If you change the target during combat your tracking will change too (if your new target is of different type and you can track it).
 <br/><br/>
 [Download](https://github.com/NoM0Re/Addons/raw/main/Addons/SmartTrack.zip)<br/>
 <br/>
@@ -765,6 +788,51 @@ The Spy addon scans the combat log for actions performed by enemy players and an
 <br/>
 ![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/spy.png)<br/>
 [FELBITE](https://felbite.com/addon/4017-spy/)<br/>
+
+## **Overachiever**
+Overachiever provides tools and tweaks to make the lives of players seeking achievements a little bit easier.
+<br/>
+[Download](https://github.com/NoM0Re/Addons/raw/main/Addons/Overachiever.zip)<br/>
+<br/>
+![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/Overachiever3.jpg)
+![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/Overachiever.jpg)
+![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/Overachiever2.jpg)<br/>
+[Curseforge](https://www.curseforge.com/wow/addons/overachiever)<br/>
+
+## **Ackis Recipe List**
+Ackis Recipe List is an AddOn which will scan your trade skills and provide information on how to obtain recipes.<br/>
+<br/>
+[Download](https://github.com/NoM0Re/Addons/raw/main/Addons/AckisRecipeList.zip)<br/>
+<br/>
+![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/AckisRecipeList.jpg)<br/>
+[Curseforge](https://www.curseforge.com/wow/addons/arl)<br/>
+
+## **Collectinator**
+Collectinator is a Addon to identify missing mini-pets and mounts, along with their locations for acquisition.<br/>
+Open up your companion window (pets or mounts) and click the scan button.<br/>
+<br/>
+[Download](https://github.com/NoM0Re/Addons/raw/main/Addons/Collectinator.zip)<br/>
+<br/>
+![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/Collectinator.jpg)<br/>
+[Curseforge](https://www.curseforge.com/wow/addons/collectinator)<br/>
+
+## **Ludwig**
+Ludwig is an World of Warcraft item database addon that allows you to search for any item ingame.<br/>
+It presents all ingame items sorted by their proprieties, and allows you to filter them as well.<br/>
+<br/>
+[Download](https://github.com/NoM0Re/Addons/raw/main/Addons/Ludwig.zip)<br/>
+<br/>
+![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/Ludwig.jpeg)<br/>
+[Curseforge](https://www.curseforge.com/wow/addons/ludwig)<br/>
+
+## **Profession Capper**
+Profession Capper is a addon that will show you how to level up your trade skills.<br/>
+When you open your Profession frame, the Profession Capper frame will be opened too, telling you which recipe you'd better to craft next in order to reach next level of that profession.<br/>
+<br/>
+[Download](https://github.com/NoM0Re/Addons/raw/main/Addons/Profession_Capper.zip)<br/>
+<br/>
+![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/Profession_Capper.jpeg)<br/>
+[Github](https://github.com/SamuelLira99/Profession-Capper)<br/>
 
 ## **Redeemer**
 This AddOn makes you say humorous messages whenever you cast a resurrection spell and serves purely to entertain you and annoy others.<br/>
@@ -797,14 +865,6 @@ This addon aims to enhance the readability and immersion when questing in World 
 <br/>
 ![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/Storyline.png)<br/>
 [Github](https://github.com/shadovvs/WotLK-Storyline/tree/v1.0.1)<br/>
-
-## **Savepass**
-Simple save password on login screen. (**Security alert**: ur Password will be saved as plain text in the WTF folder)<br/>
-<br/>
-[Download](https://github.com/NoM0Re/Addons/raw/main/Addons/Savepass-GlueXML.zip)<br/>
-<br/>
-![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/Savepass.png)<br/>
-[Github](https://github.com/s0h2x/wow-wotlk_savepass)<br/>
 
 ## **Altoholic**
 Altoholic features search functionality, which allows users to search their alts bags or loot tables in an Auction-House-like frame.<br/>
