@@ -1,6 +1,6 @@
 # Most Useful WoW Addons for Patch 3.3.5a WotLK
 
-**This is my AddonRepository for WotLK. (Created by NoM0Re)**<br/>I have written this Repository to download the newest Addons for the WotLK Patch.<br/>
+**This is my AddonRepository for WotLK. (Created by NoM0Re)**<br/>I have written this Repository to download the newest/latest Addons for the WotLK Patch.<br/>
 Not every Addon is compatible with other Addons.<br/><br/>
 **The Repository will be Updated every few Months to the newest Build of the Addons**, if something changed.<br/><br/>
 Also I posted the [sources](https://github.com/NoM0Re/Addons/blob/main/README.md#most-useful-wow-addons-for-patch-335a-wotlk) where i got the addons.
@@ -30,18 +30,11 @@ Have fun and I wish you good leveling, gathering, pvp and raiding :)<br/>
    Download an Addon<br/>
    Unzip downloaded Addon (if required)<br/>
    Find in your World of Warcraft folder, the /Interface/Addons folder<br/>
-   Drag and drop folder/s into the addon folder (folder name should match .toc file inside; remove "-master" if needed).<br/>
+   Drag and drop folder/s into the addon folder (folder name should match .toc file inside; if named "*-master" go inside the folder and paste those folders).<br/>
    Restart the Game<br/><br/>
     
 ## **How to copy Addon configs from Character to Character/Accounts:**
-
-   Find in your World of Warcraft folder, the \WTF\Account\ACCOUNTNAME\REALMNAME\CHARNAME\SavedVariables folder<br/>
-   Copy the whole folder (SavedVariables)<br/>
-   Find the Charakter where u wanna put it in to \WTF\Account\ACCOUNTNAME\REALM\OTHERCHARNAME\ folder<br/>
-   Drag and Drop the files into the OTHERCHARNAME folder and override the files<br/>
-   Start the Game (Game must be stopped at the whole process)<br/><br/>
-   
-   [![Youtube](https://img.youtube.com/vi/2Nw8vGyN-_I/0.jpg)](https://youtu.be/2Nw8vGyN-_I)
+[![Youtube](https://img.youtube.com/vi/2Nw8vGyN-_I/0.jpg)](https://youtu.be/2Nw8vGyN-_I)
 
 # **Addon List:**
 
@@ -71,11 +64,16 @@ Critline is an addon that will remember your highest hits and crits (including h
 
 ## **GearScore**
 Allows you to easily see the calculated Gearscore of yourself and other players.<br/>
+It adds a weighted value for each item a player has equipped based on Item Level.<br/>
 <br/>
-[Download](https://github.com/NoM0Re/Addons/raw/main/Addons/GearScore.zip)<br/>
+**GearScore Lite** doesn't have a database and offers fixes, like preventing Talents from "jumping" during inspections. Additionally, it has a minimal RAM usage of under 0.5 MB.<br/>
+[Download Gearscore Lite](https://github.com/NoM0Re/Addons/raw/main/Addons/GearScoreLite.zip)<br/>
+<br/>
+**GearScore** maintains a database to store players' GearScore, allowing you to view other players' Gear even when they are not present. However, it occasionally utilizes between 5 to 10 MB usage of RAM.<br/>
+[Download Gearscore](https://github.com/NoM0Re/Addons/raw/main/Addons/GearScore.zip)<br/>
 <br/>
 ![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/GearScore.jpg)<br/>
-[WotLKAddOns](https://wotlkaddons.com/addon/gearscore)<br/>
+[GearScore Lite Github](https://github.com/Barsoomx/GearScoreLite) - [GearScore WotLKAddOns](https://wotlkaddons.com/addon/gearscore)<br/>
 
 ## **AtlasLoot Enhanced**
 AtlasLoot Enhanced is an UI mod allowing for loot tables of bosses to be browsed whenever needed within the game.<br/>
@@ -85,7 +83,7 @@ AtlasLoot Enhanced is an UI mod allowing for loot tables of bosses to be browsed
 ![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/Atlasloot.jpeg)<br/>
 [Curseforge](https://www.curseforge.com/wow/addons/atlasloot-enhanced/files/all?filter-game-version=2020709689%3A98)<br/>
 
-## **DBM Deadly Boss Mods**
+## **DBM Deadly Boss Mods Warmane**
 Deadly Boss Mods (DBM) is a popular addon that assists players in tracking and reacting to the many boss mechanics one might encounter during a dungeon or raid.<br/>
 <br/>
 [How to install for the first time](https://github.com/Zidras/DBM-Warmane#how-to-install-for-the-first-time)<br/>
@@ -94,21 +92,18 @@ Deadly Boss Mods (DBM) is a popular addon that assists players in tracking and r
 <img src="https://github.com/NoM0Re/Addons/blob/main/Pictures/DBM.png" alt="Screenshot">
 [Github](https://github.com/Zidras/DBM-Warmane)<br/>
 
-## **Details!**
-Details! Damage Meter is a popular addon that tracks information and statistics about a combat encounter in World of Warcraft.<br/>
+## **Skada vs. Details!**
+Skada and Details! are both popular damage meters in World of Warcraft, showcasing distinctive features.<br/>
+Skada boasts a modular design, is more efficient and has more additional modules than Details!.<br/>
+Details! Damage Meter stands out with its user-friendly interface and a comprehensive set of tracking modules and graphs, enhancing combat data analysis for players.<br/>
 <br/>
-[Download](https://github.com/Bunny67/Details-WotLK/archive/refs/heads/master.zip)<br/>
+**Please use only one damage meter.**<br/><br/>
+[Download Skada](https://github.com/bkader/Skada-WoTLK/archive/refs/heads/main.zip)<br/>
 <br/>
-![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/Details.png)<br/>
-[Github](https://github.com/Bunny67/Details-WotLK)<br/>
-
-## **Skada**
-Skada is a modular damage meter with various viewing modes, segmented fights and customizable windows.<br/>
+[Download Details!](https://github.com/Bunny67/Details-WotLK/archive/refs/heads/master.zip)<br/>
 <br/>
-[Download](https://github.com/bkader/Skada-WoTLK/archive/refs/heads/main.zip)<br/>
-<br/>
-![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/Skada.png)<br/>
-[Github](https://github.com/bkader/Skada-WoTLK)<br/>
+![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/skadaxdetails.png)<br/>
+[Skada Github](https://github.com/bkader/Skada-WoTLK) - [Details! Github](https://github.com/Bunny67/Details-WotLK)<br/>
 
 ## **Omen Thread Meter**
 Omen is a threat meter. Basically, enemies in WoW decide who to attack by deciding who is the most threatening based on the abilities you use.<br/>
@@ -126,12 +121,28 @@ To bring up the Options window, type **/ti window**.<br/>
 ![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/TurnIn.PNG)<br/>
 [Curseforge](https://www.curseforge.com/wow/addons/turn-in/files/all?filter-game-version=2020709689%3A98)<br/>
 
+## **Questie Backport (Early Development, but works)**
+Questie is a popular World of Warcraft addon that enhances the questing experience for players. It provides an intuitive and user-friendly interface for tracking quests, displaying quest objectives on the map, and offering helpful tooltips for quest-related NPCs and items. Questie streamlines the questing process by reducing the need for players to constantly consult external guides or references, making it easier to navigate the expansive world of Azeroth and complete quests efficiently. Whether you're a seasoned veteran or a newcomer to WoW, Questie is a valuable tool for enhancing your gameplay experience and maximizing your questing efficiency.<br/>
+Show this guy some love on this Github!<br/>
+[Download](https://github.com/widxwer/Questie/archive/refs/heads/335.zip)<br/>
+<br/>
+![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/Questie.png)<br/>
+[Github](https://github.com/widxwer/Questie)<br/>
+
 ## **Questhelper**
 Questhelper tells you how to finish your quests in the easiest, fastest manner. It includes a database of quests, monsters, and items, telling you the exact location of that dang Perfect Satyr Horn you can't find. It also computes the fastest path to complete all your quests - and gain experience - as quickly as possible.<br/>
 [Download](https://github.com/NoM0Re/Addons/raw/main/Addons/QuestHelper.zip)<br/>
 <br/>
 <img src="https://github.com/NoM0Re/Addons/blob/main/Pictures/QuestHelper.jpg" alt="Screenshot"><br/>
 [Curseforge](https://www.curseforge.com/wow/addons/quest-helper/files/all?filter-game-version=2020709689%3A98)<br/>
+
+## **EveryQuest**
+EveryQuest is a Quest History tracker and quest list window.<br/>
+<br/>
+[Download](https://github.com/NoM0Re/Addons/raw/main/Addons/EveryQuest.zip)<br/>
+<br/>
+![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/EveryQuest.png)<br/>
+[WoWAce](https://www.wowace.com/projects/everyquest)<br/>
 
 ## **Carbonite**
 Carbonite is a google style map replacement and Questhelper for the world of World of Warcraft.<br/>
@@ -141,10 +152,25 @@ Carbonite is a google style map replacement and Questhelper for the world of Wor
 ![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/Carbonite.png)<br/>
 [Github](https://github.com/heihachi/Carbonite-3.3.5a-Remastered)<br/>
 
+## **Mapster**
+Mapster is a very simple world map enhacement addon, which was designed to work in conjunction with all other map addons out there.<br/>
+<br/>
+[Download](https://github.com/NoM0Re/Addons/raw/main/Addons/Mapster.zip)<br/>
+<br/>
+![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/Mapster.png)<br/>
+[Curseforge](https://www.curseforge.com/wow/addons/mapster)<br/>
+
+## **Cartographer**
+Cartographer is a modular, lightweight, and efficient framework for manipulation of the world map.<br/>
+<br/>
+[Download](https://github.com/NoM0Re/Addons/raw/main/Addons/Cartographer.zip)<br/>
+<br/>
+![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/Cartographer.png)<br/>
+[WoWAce](https://www.wowace.com/projects/cartographer)<br/>
+
 ## **Gatherer+**
 The addon does not track like a tracking ability does, rather it "remembers" where you have found various items in the past.<br/>
 It does this whenever you gather (perform herbalism, mining or opening) on an item, and records the specific map location in its history.<br/>
-When you view your World Map, you will also see the item locations marked on the particular map you are viewing there.<br/>
 Usage: **/gather**<br/>
 [Download](https://github.com/NoM0Re/Addons/raw/main/Addons/Gatherer_Wowhead335.rar)<br/>
 <br/>
@@ -158,6 +184,14 @@ pMinimap is a very lightweight and streamlined Minimap addon.<br/>
 <br/>
 ![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/pMinimap.png)<br/>
 [Felbite](https://felbite.com/addon/4552-pminimap/)<br/>
+
+## **CleanMinimap**
+A clean square or round minimap that replaces the default minimap.<br/>
+<br/>
+[Download](https://github.com/NoM0Re/Addons/raw/main/Addons/CleanMinimap.zip)<br/>
+<br/>
+![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/CMM.jpg) ![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/CMM2.jpg)<br/>
+[Curseforge](https://www.curseforge.com/wow/addons/cleanminimap)<br/>
 
 ## **SexyMap**
 SexyMap completely redesigns your mini-map to give it a more “sexy” look. You can choose from a couple of pre-defined styles.<br/>
@@ -175,15 +209,24 @@ Lightweight Minimap addon like Dragonflight style.<br/>
 ![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/pretty_minimap.png)<br/>
 [Github](https://github.com/s0h2x/pretty_minimap/)<br/>
 
-## **Auctionator+**
+## **Auctionator (Cata Port Version)**
 Auctionator is designed for casual everyday auction house users. Auctionator makes the auction house easier to use, by presenting auction house listings clearly and succinctly, and by eliminating the tedium involved in posting and managing auctions.<br/>
-MoP version of the addon, with some fixes and improvements from BlueAo.<br/>
+This Version is using abit less memory than the MoP version.<br/>
+<br/>
+[Download](https://github.com/NoM0Re/Addons/raw/main/Addons/Auctionator.rar)<br/>
+<br/>
+![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/Auctionator.png)<br/>
+[Github](https://github.com/alchem1ster/WotLK-Auctionator)<br/><br/>
+
+## **Auctionator+ (MoP Port Version)**
+Auctionator is designed for casual everyday auction house users. Auctionator makes the auction house easier to use, by presenting auction house listings clearly and succinctly, and by eliminating the tedium involved in posting and managing auctions.<br/>
+MoP version of the addon, with some fixes and improvements.<br/>
 [Download](https://github.com/NoM0Re/Addons/raw/main/Addons/Auctionator+.rar)<br/>
 <br/>
 ![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/Auctionator.png)<br/>
 [Warmane Forum](https://forum.warmane.com/showthread.php?t=412904&p=3057363&viewfull=1#post3057363)<br/><br/>
 
-## **Auctionator WatchList (Plugin for Auctionator+)**
+## **Auctionator+ WatchList (Plugin for Auctionator+ MoP Port Version)**
 An addition to Auctionator, that reminds you of all items with prices below set treshold when closing the AH window.<br/>
 <br/>
 [Download](https://github.com/NoM0Re/Addons/raw/main/Addons/Auctionator_WatchList.rar)<br/>
@@ -191,7 +234,7 @@ An addition to Auctionator, that reminds you of all items with prices below set 
 ![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/Auctionator_WatchList.png)<br/>
 [Warmane Forum](https://forum.warmane.com/showthread.php?t=412904&p=3057363&viewfull=1#post3057363)<br/><br/>
 
-## **MarketWatcher+**
+## **MarketWatcher+ (Plugin for Auctionator+ MoP Port Version)**
 Market Watcher is an addon that scans individual items or collection of items instead of the entire auction house at once.<br/>
 It also (optionally) records many snapshots of the auction house for user specified items.<br/>
 Original version of the addon with some fixes from BlueAo.<br/>
@@ -200,14 +243,13 @@ Original version of the addon with some fixes from BlueAo.<br/>
 ![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/MarketWatcher.png)<br/>
 [Warmane Forum](https://forum.warmane.com/showthread.php?t=412904&p=3057363&viewfull=1#post3057363)<br/><br/>
 
-## **TradeSkillMaster+**
+## **TradeSkillMaster v2.8.3**
 TSM is an addon designed to help both casual gold makers as well as experienced goblins streamline their gold-making processes. TSM's features include everything from improving the native crafting and auctioning experiences to helping you gather needed materials and sniping that low-hanging auction house fruit!<br/>
-Fixed and reworked and enhanced from BlueAo<br/>
 <br/>
-[Download](https://github.com/NoM0Re/Addons/raw/main/Addons/TradeSkillMaster+.rar)<br/>
+[Download](https://github.com/andrew6180/TradeSkillMaster/archive/refs/heads/master.zip)<br/>
 <br/>
 ![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/TSM.png)<br/>
-[Warmane Forum](https://forum.warmane.com/showthread.php?t=412904&p=3057363&viewfull=1#post3057363)<br/>
+[Github](https://github.com/andrew6180/TradeSkillMaster)<br/>
 
 ## **DalaranAH**
 **DalaranAH** is a lightweight World of Warcraft addon that simplifies interactions with the Auctionhouse NPC in Dalaran by providing a customizable button on your screen, allowing you to target, set focus and mark the AH-Bot.<br/>
@@ -242,6 +284,14 @@ This addon allows you completely skip messages, containing words from the blackl
 ![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/Chatfilter.PNG)<br/>
 [Warmane Forum](https://forum.warmane.com/showthread.php?t=404523)<br/>
 
+## **Friend & Ignore Share**
+Share friends and ignore list account-wide.<br/>
+<br/>
+[Download](https://github.com/NoM0Re/Addons/raw/main/Addons/FriendShare.zip)<br/>
+<br/>
+![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/FriendShare.png)<br/>
+[Curseforge](https://www.curseforge.com/wow/addons/friend-ignore-share)<br/>
+
 ## **IgnoreMore**
 IgnoreMore will let you ignore more than 49 players, share the same ignore list, see when someone was ignored, reason for why the person is ignored<br/>
 <br/>
@@ -257,6 +307,22 @@ WIM (WoW Instant Messenger) is a World of Warcraft addon which brings an instant
 <br/>
 <img src="https://github.com/NoM0Re/Addons/blob/main/Pictures/WIM.jpg" alt="Screenshot"><br/>
 [Curseforge](https://www.curseforge.com/wow/addons/wim-3/files/all?filter-game-version=2020709689%3A98)<br/>
+
+## **AddFriend**
+AddFriend is a simple addon that adds an "Add Friend" and "Invite Guild" option to the context menu of player options.<br/>
+<br/>
+[Download](https://github.com/NoM0Re/Addons/raw/main/Addons/AddFriend.zip)<br/>
+<br/>
+![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/AddFriend.jpeg)<br/>
+[Curseforge](https://www.curseforge.com/wow/addons/addfriend)<br/>
+
+## **SpellID**
+Adds IDs to the ingame tooltips.<br/>
+<br/>
+[Download](https://github.com/NoM0Re/Addons/raw/main/Addons/SpellID.zip)<br/>
+<br/>
+![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/SpellID.jpg)<br/>
+[Curseforge](https://www.curseforge.com/wow/addons/idtip)<br/>
 
 ## **AmILockedOut**
 AmILockedOut Little addon which saves me quite some time with all my twinks. Rembers which of your chars are saved to which instance.<br/>
@@ -330,6 +396,14 @@ ElvUI is a complete Blizzard ui replacements. This means that they already have 
 <br/>
 <img src="https://github.com/NoM0Re/Addons/blob/main/Pictures/Elvui.jpg" alt="Screenshot"><br/>
 [GitHub](https://github.com/ElvUI-WotLK/ElvUI)<br/>
+
+## **BlizzMove**
+This addon makes the Blizzard windows movable.<br/>
+<br/>
+[Download](https://github.com/NoM0Re/Addons/raw/main/Addons/BlizzMove.zip)<br/>
+<br/>
+![](https://github.com/NoM0Re/Addons/blob/main/Pictures/BlizzMove.gif)<br/><br/>
+[Curseforge](https://www.curseforge.com/wow/addons/blizzmove)<br/>
 
 ## **EventHorizon**
 EventHorizon displays all of your class/spec's rotational abilities on a common time scale.<br/>This means that instead of seeing a regular percentage-based timer bar, EH shows you exactly what is happening in relation to everything else.<br/>If that sounds complicated at all, just look at the screenshots.<br/>
@@ -500,15 +574,13 @@ Mage Nuggets is a utility with many useful nuggets to make the lives of mages ea
 ![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/Mage%20Nuggets.jpg)<br/>
 [Curseforge](https://www.curseforge.com/wow/addons/mage-nuggets/files/all?filter-game-version=2020709689%3A98)<br/>
 
-## **PallyPower(fixed version)**
+## **PallyPower(fixed version by me)**
 Pally Power the must have for a Paladin, provides an interactive and easy to use interface that allows you to set your own blessings (Righteous Fury, Aura, Seal and Blessings) and automatically checks for missing buffs with an easy to read indicator. <br/>
-**The fixed version provides: after buffing a class, it collapses the tab, taking up less space in the UI.**<br/>
-**If you already had it installed you need to delete the Pallypower files in the WoW/WTF folder using Windows search in the upper right inside the folder search: Pallypower and delete that. Otherwise the fix will not be active**<br/>
 <br/>
-[Download Fixed Version](https://github.com/NoM0Re/Addons/raw/main/Addons/PallyPower.zip)<br/>
+[Download Fixed Version](https://github.com/NoM0Re/PallyPower-Improved-3.3.5/archive/refs/heads/main.zip)<br/>
 <br/>
 ![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/pallypower.jpg)<br/>
-[RisingGodsAddons](https://addons.rising-gods.de/addons/pallypower)<br/>
+[Github](https://github.com/NoM0Re/PallyPower-Improved-3.3.5)<br/>
 
 ## **EclipseBar**
 Backported Druid EclipseBar but instead of showing power bar, the marker moves with the eclipse's remaining time.<br/>
@@ -582,6 +654,13 @@ RBS reports on a configurable dashboard or to group chat on consumables, buffs, 
 <br/>
 ![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/RaidBuffStatus.PNG)<br/>
 [Curseforge](https://www.curseforge.com/wow/addons/raidbuffstatus/files/all?filter-game-version=2020709689%3A98)<br/>
+
+## **Raid Cluster**
+RaidCluster is an addon designed to display clusters of players as counters that increment when players are close to each other. It helps healers identify the optimal targets by indicating where healing efforts can be most effective. It supports Holy Light Glyph, Chain Heal, Wild Growth, Circle of Healing, and Prayer of Healing spells. Additionally, it can trigger a glow effect on a players raid frame when one of these spells hits the player. All settings can be accessed under Interface -> Addons -> RaidCluster and include various appearance and loading options.<br/>
+[Download](https://github.com/NoM0Re/RaidCluster/archive/refs/heads/main.zip)<br/>
+<br/>
+![](https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/Pictures/RaidCluster.gif)<br/>
+[Github](https://github.com/NoM0Re/RaidCluster)<br/>
 
 ## **RaidComp**
 Raid composition is an important aspect of WoW PvE. RC also helps raid leaders by giving an overview of the different buff and debuff categories. It won't do all the thinking for you, raid optimization is complex, however it should be able to do most of the grunt work and highlight some of the categories and abilities you need to look closer at.<br/>
@@ -773,6 +852,15 @@ TipTac is a tooltip enchancement addon, it allows you to configure various aspec
 ![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/tic.jpg) ![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/tic2.jpg)<br/>
 [Curseforge](https://www.curseforge.com/wow/addons/tip-tac)<br/>
 
+## **BugSack**
+BugSack eases the process of viewing bugs. It displays Lua errors that occurred during your play session, including the full debug stack.<br/>
+It aims to be invaluable to developers, and a useful tool for players.<br/>
+<br/>
+[Download](https://github.com/NoM0Re/Addons/raw/main/Addons/BugSack.zip)<br/>
+<br/>
+![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/BugSack.jpg)<br/>
+[Curseforge](https://www.curseforge.com/wow/addons/bugsack)<br/>
+
 ## **SmartTrack**
 Smart automatic tracking for hunters only with Improved tracking talent. Whenever you enter combat this addon will check your target's type (if any) and automatically change your tracking accordingly. If you change the target during combat your tracking will change too (if your new target is of different type and you can track it).
 <br/><br/>
@@ -842,6 +930,14 @@ This AddOn makes you say humorous messages whenever you cast a resurrection spel
 ![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/Reedemer.png)<br/>
 [Github](https://github.com/Lightball-TFK/Redeemer-3.3.5a)<br/>
 
+## **AddFriend**
+AddFriend is a simple addon that adds an Add Friend or Add Guild option to the context menu of player options.<br/>
+<br/>
+[Download](https://github.com/NoM0Re/AddFriend-3.3.5a/archive/refs/heads/main.zip)<br/>
+<br/>
+![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/AddFriend.jpeg)<br/>
+[Github](https://github.com/NoM0Re/AddFriend-3.3.5a)<br/>
+
 ## **AddEmote**
 Ever wished World of Warcraft had more emotes? Or wanted to create your own emotes that you could use like the regular ones? Well, now you can! AddEmote lets you easily create new /command emotes for all your characters. **use /addemote** for the configuration interface.<br/>
 <br/>
@@ -875,14 +971,21 @@ Altoholic features search functionality, which allows users to search their alts
 [RisingGods](https://addons.rising-gods.de/addons/altoholic)<br/>
 
 ## **Key Bind Profiles**
-This addon allows you to save keybind settings into different profiles, these profiles can be loaded and used again later. Each profile can be assigned to a specialization such that it automatically loads upon switching specs.<br/>
+This addon allows you to save keybind settings into different profiles, these profiles can be loaded and used again later. Each profile can be assigned to a specialization such that it automatically loads upon switching specs. Accessable through /kbp help<br/>
 <br/>
 [Download](https://github.com/NoM0Re/Addons/raw/main/Addons/KeyBindingsProfiler.zip)<br/>
 <br/>
 ![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/KeyBindProfiles.jpg)<br/>
 [Curseforge](https://www.curseforge.com/wow/addons/keybindprofiles)<br/>
 
-## **SharedMedia**
+## **Action Bar Saver 2**
+Quick little mod, allows you to setup different profiles for your action bars. Mainly this is for hybrid classes that want to be able to respec without spending 10-20 minutes setting their action bars up. All you do is type /abs save name and it'll save the location of all your spells, macros and items and /abs restore name to get them.<br/>
+[Download](https://github.com/NoM0Re/Addons/raw/main/Addons/ActionBarSaver.zip)<br/>
+<br/>
+![](https://github.com/NoM0Re/WoW-3.3.5a-Addons/blob/main/Pictures/ActionButtonSaver2.gif)<br/>
+[Curseforge](https://www.curseforge.com/wow/addons/action-bar-saver/files/all?page=1&pageSize=20&version=3.2.0)<br/>
+
+## **SharedMedia + MerfinMedia**
 Adds more Fonts for Addons<br/>
 <br/>
 [Download](https://github.com/NoM0Re/Addons/raw/main/Addons/SharedMedia.zip)<br/>
@@ -899,14 +1002,21 @@ MogIt is an in-game catalogue of items with the aim of helping players build the
 [GitHub](https://github.com/Skrylas/MogIt-WotLK)<br/>
 <br/>
 
+## **Atlas**
+Atlas is an add-on for World of Warcraft that provides maps for each instance, along with tips for bosses and information on their loot drops in the game.<br/>
+<br/>
+[Download](https://github.com/NoM0Re/Addons/raw/main/Addons/Atlas.zip)<br/>
+<br/>
+![Screenshot](https://github.com/NoM0Re/Addons/blob/main/Pictures/Atlas.png)<br/>
+[Rising Gods](https://addons.rising-gods.de/addons/atlas)<br/>
+
 ## **More Addons here:**
 <br/>
+
 [Curseforge](https://www.curseforge.com/wow/addons?filter-game-version=2020709689%3A98&filter-sort=5)<br/>
 [Felbite](https://felbite.com/wow-3-3-5-addons/)<br/>
 [Legacy](https://legacy-wow.com/wotlk-addons/)<br/>
 [RG](https://addons.rising-gods.de/addons)<br/>
+
 <br/>
 
-## **MY TO DO LIST**
-<br/>
-Total RP<br/>
