@@ -30,6 +30,10 @@ foreach ($file in $trackedFiles) {
     continue
   }
 
+  if ($file -eq ".github" -or $file.StartsWith(".github/") -or $file.StartsWith(".github\")) {
+    continue
+  }
+
   $extension = [System.IO.Path]::GetExtension($file).ToLowerInvariant()
   if ($extension -in @(".zip", ".rar", ".7z", ".png", ".jpg", ".jpeg", ".gif", ".webp", ".ico", ".pdf")) {
     continue
