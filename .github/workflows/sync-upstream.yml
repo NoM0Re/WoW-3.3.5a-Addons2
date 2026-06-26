@@ -35,8 +35,8 @@ jobs:
           git rm -r --ignore-unmatch .
           git checkout upstream/main -- .
 
-          git checkout HEAD -- .github/workflows/sync-upstream.yml
-          git checkout HEAD -- .github/scripts/rewrite-repo-links.ps1
+          git rm -r --ignore-unmatch .github
+          git checkout HEAD -- .github
 
       - name: Rewrite mirror links
         shell: pwsh
