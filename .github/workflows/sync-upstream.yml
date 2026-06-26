@@ -35,7 +35,7 @@ jobs:
           git rm -r --ignore-unmatch .
           git checkout upstream/main -- .
 
-          git rm -r --ignore-unmatch .github
+          git rm -rf --ignore-unmatch .github
           git checkout HEAD -- .github
 
       - name: Rewrite mirror links
