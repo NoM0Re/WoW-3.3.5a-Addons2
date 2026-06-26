@@ -11,15 +11,21 @@ Have fun and I wish you good leveling, gathering, pvp and raiding :)<br/>
 ### IMPORTANT: u may have to be logged in Github to download a AddOn!<br/>Don't download from the repo Addons Folder, instead download from here!
 
 <p align="left">
-  <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/NoM0Re/WoW-3.3.5a-Addons2" />
-  <img alt="GitHub Issues" src="https://img.shields.io/github/issues/NoM0Re/WoW-3.3.5a-Addons2" />
-  <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/NoM0Re/WoW-3.3.5a-Addons2" />
+  <a href="https://github.com/NoM0Re/WoW-3.3.5a-Addons2/graphs/contributors">
+    <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/NoM0Re/WoW-3.3.5a-Addons2">
+  </a>
+  <a href="https://github.com/NoM0Re/WoW-3.3.5a-Addons2/issues">
+    <img alt="GitHub Issues" src="https://img.shields.io/github/issues/NoM0Re/WoW-3.3.5a-Addons2">
+  </a>
+  <a href="https://github.com/NoM0Re/WoW-3.3.5a-Addons2/commits/main/">
+    <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/NoM0Re/WoW-3.3.5a-Addons2">
+  </a>
   <br>
   <a href="https://nom0re.github.io/WoW-3.3.5a-Addons2/">
-    <img alt="page-deployment" src="https://github.com/NoM0Re/WoW-3.3.5a-Addons2/actions/workflows/pages/pages-build-deployment/badge.svg" />
+    <img alt="page-deployment" src="https://github.com/NoM0Re/WoW-3.3.5a-Addons2/actions/workflows/pages/pages-build-deployment/badge.svg">
   </a>
   <a href="https://streamelements.com/nom0ree/tip" target="_blank">
-    <img alt="PayPal" src="https://img.shields.io/badge/Buy_me_a_coffee-100000?style=flat-square&logo=PayPal&logoColor=white&labelColor=3b7bbf&color=000000" />
+    <img alt="PayPal" src="https://img.shields.io/badge/Buy_me_a_coffee-100000?style=flat-square&logo=PayPal&logoColor=white&labelColor=3b7bbf&color=000000">
   </a>
 </p>
 
@@ -139,10 +145,10 @@ To bring up the Options window, type **/ti window**.<br/>
 
 ## **Questie**
 Questie is a popular World of Warcraft addon that enhances the questing experience for players. It provides an intuitive and user-friendly interface for tracking quests, displaying quest objectives on the map, and offering helpful tooltips for quest-related NPCs and items. Questie streamlines the questing process by reducing the need for players to constantly consult external guides or references, making it easier to navigate the expansive world of Azeroth and complete quests efficiently. Whether you're a seasoned veteran or a newcomer to WoW, Questie is a valuable tool for enhancing your gameplay experience and maximizing your questing efficiency.<br/>
-[Download](https://github.com/widxwer/Questie/archive/refs/heads/335.zip)<br/>
+[Download](https://github.com/Aldori15/Questie/archive/refs/heads/335.zip)<br/>
 <br/>
 ![Screenshot](https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/Questie.png)<br/>
-[Github](https://github.com/widxwer/Questie)<br/>
+[Github](https://github.com/Aldori15/Questie)<br/>
 
 ## **Zygor Guides**
 Zygor Guides Viewer Remaster is a modernized version of the classic Zygor Guides Viewer, built specifically for World of Warcraft: Wrath of the Lich King (3.3.5a / build 12340) private servers.<br/>
@@ -171,10 +177,10 @@ EveryQuest is a Quest History tracker and quest list window.<br/>
 ## **Carbonite (Maps / QuestHelper)**
 Carbonite is a google style map replacement and Questhelper for the world of World of Warcraft.<br/>
 <br/>
-[Download](https://github.com/heihachi/Carbonite-3.3.5a-Remastered/archive/refs/heads/master.zip)<br/>
+[Download](https://github.com/anzz1/Carbonite-3.3.5/archive/refs/heads/master.zip)<br/>
 <br/>
 ![Screenshot](https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/Carbonite.png)<br/>
-[Github](https://github.com/heihachi/Carbonite-3.3.5a-Remastered)<br/>
+[Github](https://github.com/anzz1/Carbonite-3.3.5)<br/>
 
 ## **Mapster**
 Mapster is a very simple world map enhacement addon, which was designed to work in conjunction with all other map addons out there.<br/>
@@ -423,6 +429,15 @@ You can either access them over the minimap button or with the slash commands /n
 <img src="https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/NotPlater1.png" alt="Screenshot"><br/>
 [Github](https://github.com/RichSteini/NotPlater)<br/>
 
+## **PlateBuffs**
+PlateBuffs displays buffs and debuffs above enemy nameplates, helping you track important auras in PvP and combat.<br/>
+This version is based on Kader's backport and adds improved spell filtering, duration text options, expiration animations, nameplate tracking, and simulated interrupt debuffs.<br/>
+<br/>
+[Download](https://github.com/KhalGH/PlateBuffs-WoTLK/archive/refs/heads/main.zip)<br/>
+<br/>
+![Screenshot](https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/PlateBuffs.png)<br/>
+[GitHub](https://github.com/KhalGH/PlateBuffs-WoTLK)<br/>
+
 ## **ElvUI**
 ElvUI is a complete Blizzard ui replacements. This means that they already have Blizzard frames skinned, unitframes and actionbars premade, etc.<br/>
 <br/>
@@ -432,6 +447,14 @@ ElvUI is a complete Blizzard ui replacements. This means that they already have 
 <br/>
 <img src="https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/ElvUI.png" alt="Screenshot"><br/>
 [GitHub](https://github.com/ElvUI-WotLK/ElvUI)<br/>
+
+## **DragonUI**
+DragonUI is a modular, retail-inspired UI addon for World of Warcraft 3.3.5a. It includes customizable action bars, unit frames, castbars, XP and reputation bars, chat enhancements, a retail-style minimap, bag sorting, layout presets, editor mode, and profile support.<br/>
+<br/>
+[Download](https://github.com/NeticSoul/DragonUI/archive/refs/heads/main.zip)<br/>
+<br/>
+<img src="https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/DragonUI.png" alt="Screenshot"><br/>
+[GitHub](https://github.com/NeticSoul/DragonUI)<br/>
 
 ## **BlizzMove**
 This addon makes the Blizzard windows movable.<br/>
@@ -586,10 +609,26 @@ SexyCooldown is a single consolidated timer bar for all your spell, pet's spell,
 ![Screenshot](https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/SexyCooldown.png)<br/>
 [Curseforge](https://www.curseforge.com/wow/addons/sexycooldown/files?version=3.3.3)<br/>
 
+## **MoP Item Tooltips**
+MoP Item Tooltips is an add-on to modifiy item tooltips so they look like they do in later expansions.<br/>
+<br/>
+[Download](https://github.com/NoM0Re/WoW-3.3.5a-Addons2/raw/main/src/Addons/MoPItemTooltips.zip)<br/>
+<br/>
+![Screenshot](https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/MoPItemTooltips1.png)<br/>
+[EzWoW](https://ezwow.org/topic/134110-mop-item-tooltips-11/)<br/>
+<br/>
+
+## **Equipence**
+Displays gems, enchants, item levels, and quality borders directly in the character and inspection UI. See full gear status at a glance without extra steps. All visual elements can be toggled or adjusted in the options.<br/>
+<br/>
+[Download](https://github.com/s0h2x/Equipence/archive/refs/heads/master.zip)<br/>
+<br/>
+![Screenshot](https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/Equipence.png)<br/>
+[GitHub](https://github.com/s0h2x/Equipence)<br/>
+
 ## **InspectEquip**
 InspectEquip attaches a panel to the inspect window that shows a list of the character's equipment sorted by source (i.e. Raid, Vendor, Crafted...).<br/>
-This gives you a quick overview of a character's equipment.
-<br/>
+This gives you a quick overview of a character's equipment.<br/>
 [Download](https://github.com/NoM0Re/WoW-3.3.5a-Addons2/raw/main/src/Addons/InspectEquip.zip)<br/>
 <br/>
 ![Screenshot](https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/InspectEquip.png)<br/>
@@ -679,10 +718,10 @@ MSBT is designed to be an extremely lightweight, efficient, and highly configura
 ## **xCT+**
 xCT+ is a combat text replacement (like MSBT).<br/>Backported from retail Pandaria, this version compared to other backports offers control over settings in-game and is more minimalistic and anti-spammy than MSBT<br/>
 <br/>
-[Download](https://github.com/Barsoomx/xCT_Plus_wotlk/archive/refs/heads/master.zip)<br/>
+[Download](https://github.com/hypopheria2k/xCT_Plus_wotlk/archive/refs/heads/master.zip)<br/>
 <br/>
 ![Screenshot](https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/xCT.PNG)<br/>
-[GitHub](https://github.com/Barsoomx/xCT_Plus_wotlk)<br/>
+[GitHub](https://github.com/hypopheria2k/xCT_Plus_wotlk)<br/>
 
 ## **RaidBrowser for Warmane**
 Bringing LFR to Wotlk. This addon replaces the unused (in 3.3.5a) LFR tab in the social menu with a working raid finder. Use **/rb** to open.<br/>
@@ -888,7 +927,7 @@ TrufiGCD a small addon, that shows the last used abilities of party or arena mem
 [Download](https://github.com/NoM0Re/WoW-3.3.5a-Addons2/raw/main/src/Addons/TrufiGCD.zip)<br/>
 <br/>
 ![](https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/TrufiGCD.gif)<br/>
-[GitHub](https://github.com/robgha01/TrufiGCD)<br/>
+[GitHub](https://github.com/BannZay/TrufiGCD)<br/>
 
 ## **SoundAlerter**
 SoundAlerter for WoW 3.3.5a - The addon announces via sound when the enemy uses important CDs, abilities, controls, defs, trinkets. In general, all important actions of yours are used in PvP<br/>
@@ -993,14 +1032,14 @@ It presents all ingame items sorted by their proprieties, and allows you to filt
 ![Screenshot](https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/Ludwig.jpeg)<br/>
 [Curseforge](https://www.curseforge.com/wow/addons/ludwig)<br/>
 
-## **Profession Capper**
-Profession Capper is a addon that will show you how to level up your trade skills.<br/>
-When you open your Profession frame, the Profession Capper frame will be opened too, telling you which recipe you'd better to craft next in order to reach next level of that profession.<br/>
+## **Improved Profession Capper**
+Improved Profession Capper is a addon that will show you how to level up your trade skills.<br/>
+When you open your Profession frame, the Improved Profession Capper frame will be opened too, telling you which recipe you'd better to craft next in order to reach next level of that profession.<br/>
 <br/>
-[Download](https://github.com/NoM0Re/WoW-3.3.5a-Addons2/raw/main/src/Addons/Profession_Capper.zip)<br/>
+[Download](https://github.com/DarkChimu/Improved-Profession-Capper/archive/refs/heads/master.zip)<br/>
 <br/>
-![Screenshot](https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/Profession_Capper.jpeg)<br/>
-[Github](https://github.com/SamuelLira99/Profession-Capper)<br/>
+![Screenshot](https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/Improved-Profession-Capper.jpeg)<br/>
+[Github](https://github.com/DarkChimu/Improved-Profession-Capper)<br/>
 
 ## **Molinari**
 Molinari allows the player to easily "salvage" items directly from the inventory by holding down the Alt key and clicking on the item in their bags, instead of dealing with the tradeskill UI, spellbook, macros or actions.<br/>
@@ -1128,6 +1167,14 @@ Atlas is an add-on for World of Warcraft that provides maps for each instance, a
 <br/>
 ![Screenshot](https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/Atlas.png)<br/>
 [Rising Gods](https://addons.rising-gods.de/addons/atlas)<br/>
+
+## **DressMe**
+DressMe is an add-on that allows to preview items appearance, create and save your character looks.<br/>
+<br/>
+[Download](https://github.com/NoM0Re/WoW-3.3.5a-Addons2/raw/main/src/Addons/DressMe.zip)<br/>
+<br/>
+![](https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/DressMe.gif)<br/>
+[Github](https://github.com/GetLocalPlayer/DressMe)<br/>
 
 ## More Addons:
 - [Warperia](https://warperia.com/wotlk-addons/)
