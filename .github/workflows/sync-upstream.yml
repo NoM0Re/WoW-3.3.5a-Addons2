@@ -1,0 +1,59 @@
+name: Sync upstream
+
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    types:
+      - upstream-push
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: sync-upstream
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    name: Pull upstream and open PR
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout mirror
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Merge upstream
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git remote add upstream https://github.com/NoM0Re/WoW-3.3.5a-Addons.git
+          git fetch upstream main
+          git merge --no-edit upstream/main
+
+      - name: Rewrite mirror links
+        shell: pwsh
+        run: |
+          ./.github/scripts/rewrite-repo-links.ps1 `
+            -SourceRepo "NoM0Re/WoW-3.3.5a-Addons" `
+            -TargetRepo "NoM0Re/WoW-3.3.5a-Addons2"
+
+      - name: Show pending changes
+        run: git status --short
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: sync/upstream
+          delete-branch: true
+          title: "Sync upstream changes"
+          commit-message: "Sync upstream and rewrite mirror links"
+          body: |
+            Automated sync from `NoM0Re/WoW-3.3.5a-Addons`.
+
+            This PR merges upstream `main` and rewrites repository/page links back to this mirror:
+            `NoM0Re/WoW-3.3.5a-Addons2`.
+          labels: automated-sync
