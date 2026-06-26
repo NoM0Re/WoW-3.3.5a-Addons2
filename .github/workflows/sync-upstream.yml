@@ -25,13 +25,18 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Merge upstream
+      - name: Import upstream tree
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git remote add upstream https://github.com/NoM0Re/WoW-3.3.5a-Addons.git
           git fetch upstream main
-          git merge --no-edit upstream/main
+
+          git rm -r --ignore-unmatch .
+          git checkout upstream/main -- .
+
+          git checkout HEAD -- .github/workflows/sync-upstream.yml
+          git checkout HEAD -- .github/scripts/rewrite-repo-links.ps1
 
       - name: Rewrite mirror links
         shell: pwsh
