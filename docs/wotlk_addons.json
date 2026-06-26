@@ -153,7 +153,7 @@
   {
     "name": "Questie",
     "description_text": "Questie is a popular World of Warcraft addon that enhances the questing experience for players. It provides an intuitive and user-friendly interface for tracking quests, displaying quest objectives on the map, and offering helpful tooltips for quest-related NPCs and items. Questie streamlines the questing process by reducing the need for players to constantly consult external guides or references, making it easier to navigate the expansive world of Azeroth and complete quests efficiently. Whether you're a seasoned veteran or a newcomer to WoW, Questie is a valuable tool for enhancing your gameplay experience and maximizing your questing efficiency.",
-    "primary_download": "https://github.com/widxwer/Questie/archive/refs/heads/335.zip",
+    "primary_download": "https://github.com/Aldori15/Questie/archive/refs/heads/335.zip",
     "primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/Questie.png",
     "image_urls": [
       "https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/Questie.png"
@@ -161,7 +161,7 @@
     "source": [
       {
         "label": "Github",
-        "url": "https://github.com/widxwer/Questie"
+        "url": "https://github.com/Aldori15/Questie"
       }
     ]
   },
@@ -213,7 +213,7 @@
   {
     "name": "Carbonite (Maps / QuestHelper)",
     "description_text": "Carbonite is a google style map replacement and Questhelper for the world of World of Warcraft.",
-    "primary_download": "https://github.com/heihachi/Carbonite-3.3.5a-Remastered/archive/refs/heads/master.zip",
+    "primary_download": "https://github.com/anzz1/Carbonite-3.3.5/archive/refs/heads/master.zip",
     "primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/Carbonite.png",
     "image_urls": [
       "https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/Carbonite.png"
@@ -221,7 +221,7 @@
     "source": [
       {
         "label": "Github",
-        "url": "https://github.com/heihachi/Carbonite-3.3.5a-Remastered"
+        "url": "https://github.com/anzz1/Carbonite-3.3.5"
       }
     ]
   },
@@ -1186,7 +1186,7 @@
   {
     "name": "xCT+",
     "description_text": "xCT+ is a combat text replacement (like MSBT).\nBackported from retail Pandaria, this version compared to other backports offers control over settings in-game and is more minimalistic and anti-spammy than MSBT",
-    "primary_download": "https://github.com/Barsoomx/xCT_Plus_wotlk/archive/refs/heads/master.zip",
+    "primary_download": "https://github.com/hypopheria2k/xCT_Plus_wotlk/archive/refs/heads/master.zip",
     "primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/xCT.PNG",
     "image_urls": [
       "https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/xCT.PNG"
@@ -1194,7 +1194,7 @@
     "source": [
       {
         "label": "GitHub",
-        "url": "https://github.com/Barsoomx/xCT_Plus_wotlk"
+        "url": "https://github.com/hypopheria2k/xCT_Plus_wotlk"
       }
     ]
   },
@@ -1573,7 +1573,7 @@
     "source": [
       {
         "label": "GitHub",
-        "url": "https://github.com/robgha01/TrufiGCD"
+        "url": "https://github.com/BannZay/TrufiGCD"
       }
     ]
   },
@@ -1761,17 +1761,17 @@
     ]
   },
   {
-    "name": "Profession Capper",
+    "name": "Improved Profession Capper",
     "description_text": "Profession Capper is a addon that will show you how to level up your trade skills.\n\nWhen you open your Profession frame, the Profession Capper frame will be opened too, telling you which recipe you'd better to craft next in order to reach next level of that profession.",
-    "primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons2/raw/main/src/Addons/Profession_Capper.zip",
-    "primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/Profession_Capper.jpeg",
+    "primary_download": "https://github.com/DarkChimu/Improved-Profession-Capper/archive/refs/heads/master.zip",
+    "primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/Improved-Profession-Capper.jpeg",
     "image_urls": [
-      "https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/Profession_Capper.jpeg"
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/Improved-Profession-Capper.jpeg"
     ],
     "source": [
       {
         "label": "Github",
-        "url": "https://github.com/SamuelLira99/Profession-Capper"
+        "url": "https://github.com/DarkChimu/Improved-Profession-Capper"
       }
     ]
   },
@@ -1990,6 +1990,83 @@
       {
         "label": "Rising Gods",
         "url": "https://addons.rising-gods.de/addons/atlas"
+      }
+    ]
+  },
+  {
+    "name": "Equipence",
+    "description_text": "Displays gems, enchants, item levels, and quality borders directly in the character and inspection UI. See full gear status at a glance without extra steps. All visual elements can be toggled or adjusted in the options.",
+    "primary_download": "https://github.com/s0h2x/Equipence/archive/refs/heads/master.zip",
+    "primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/Equipence.png",
+    "image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/Equipence.png"
+    ],
+    "source": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/s0h2x/Equipence"
+      }
+    ]
+  },
+  {
+    "name": "MoP Item Tooltips",
+    "description_text": "MoP Item Tooltips is an add-on to modifiy item tooltips so they look like they do in later expansions.",
+    "primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons2/raw/main/src/Addons/MoPItemTooltips.zip",
+    "primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/MoPItemTooltips1.png",
+    "image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/MoPItemTooltips1.png",
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/MoPItemTooltips2.png",
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/MoPItemTooltips3.png"
+    ],
+    "source": [
+      {
+        "label": "EzWoW",
+        "url": "https://ezwow.org/topic/134110-mop-item-tooltips-11/"
+      }
+    ]
+  },
+  {
+    "name": "PlateBuffs",
+    "description_text": "PlateBuffs displays people's buffs above their nameplates.",
+    "primary_download": "https://github.com/KhalGH/PlateBuffs-WoTLK/archive/refs/heads/main.zip",
+    "primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/PlateBuffs.png",
+    "image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/PlateBuffs.jpg"
+    ],
+    "source": [
+      {
+        "label": "Github",
+        "url": "https://github.com/KhalGH/PlateBuffs-WoTLK"
+      }
+    ]   
+  },
+   {  
+    "name": "DressMe",
+    "description_text": "DressMe is an add-on that allows to preview items appearance, create and save your character looks.",
+    "primary_download": "https://github.com/NoM0Re/WoW-3.3.5a-Addons2/raw/main/src/Addons/DressMe.zip",
+    "primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/DressMe.gif",
+    "image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/DressMe.gif"
+    ],
+    "source": [
+      {
+        "label": "Github",
+        "url": "https://github.com/GetLocalPlayer/DressMe"
+      }
+    ]
+  },
+  {
+    "name": "DragonUI",
+    "description_text": "DragonUI is a modular, retail-inspired UI addon for World of Warcraft 3.3.5a. It includes customizable action bars, unit frames, castbars, XP and reputation bars, chat enhancements, a retail-style minimap, bag sorting, layout presets, editor mode, and profile support.",
+    "primary_download": "https://github.com/NeticSoul/DragonUI/archive/refs/heads/main.zip",
+    "primary_image": "https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/DragonUI.png",
+    "image_urls": [
+      "https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/DragonUI.png"
+    ],
+    "source": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/NeticSoul/DragonUI"
       }
     ]
   }
