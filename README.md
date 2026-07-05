@@ -1168,6 +1168,14 @@ Atlas is an add-on for World of Warcraft that provides maps for each instance, a
 ![Screenshot](https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/Atlas.png)<br/>
 [Rising Gods](https://addons.rising-gods.de/addons/atlas)<br/>
 
+## **CartoMapper**
+The Ultimate Map Enhancement Addon for Wrath of the Lich King 3.3.5a.<br/>
+<br/>
+[Download](https://github.com/Zendevve/CartoMapper/archive/refs/heads/master.zip)<br/>
+<br/>
+![](https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/CartoMapper.png)<br/>
+[Github](https://github.com/Zendevve/CartoMapper)<br/>
+
 ## **DressMe**
 DressMe is an add-on that allows to preview items appearance, create and save your character looks.<br/>
 <br/>
@@ -1175,6 +1183,22 @@ DressMe is an add-on that allows to preview items appearance, create and save yo
 <br/>
 ![](https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/DressMe.gif)<br/>
 [Github](https://github.com/GetLocalPlayer/DressMe)<br/>
+
+## **CleanerChat**
+A World of Warcraft 3.3.5a addon that filters chat message clutter and replaces the default chat frame with an immersive, modern chat UI.<br/>
+<br/>
+[Download](https://github.com/migwynkriid/CleanerChat-WotLK/archive/refs/heads/master.zip)<br/>
+<br/>
+![](https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/CleanerChat.gif)<br/>
+[Github](https://github.com/migwynkriid/CleanerChat-WotLK)<br/>
+
+## **DialogUI**
+An immersive quest / gossip / book dialog UI for World of Warcraft 3.3.5a.<br/>
+<br/>
+[Download](https://github.com/ghbset/DialogUI-WotLK/archive/refs/heads/main.zip)<br/>
+<br/>
+![Screenshot](https://github.com/NoM0Re/WoW-3.3.5a-Addons2/blob/main/src/Pictures/DialogUI1.png)<br/>
+[Github](https://github.com/ghbset/DialogUI-WotLK)<br/>
 
 ## More Addons:
 - [Warperia](https://warperia.com/wotlk-addons/)
