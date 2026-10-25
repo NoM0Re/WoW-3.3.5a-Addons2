@@ -23,6 +23,7 @@ jobs:
       - name: Checkout mirror
         uses: actions/checkout@v7
         with:
+          ref: ${{ github.event.repository.default_branch }}
           fetch-depth: 0
 
       - name: Import upstream tree
@@ -32,18 +33,18 @@ jobs:
           git remote add upstream https://github.com/NoM0Re/WoW-3.3.5a-Addons.git
           git fetch upstream main
 
-          git rm -r --ignore-unmatch .
-          git checkout upstream/main -- .
-
-          git rm -rf --ignore-unmatch .github
-          git checkout HEAD -- .github
+          # Replace upstream content, including removed files, while keeping
+          # this mirror's workflows and scripts intact.
+          git restore --source=upstream/main --staged --worktree -- . ':(exclude).github'
 
       - name: Rewrite mirror links
         shell: pwsh
+        env:
+          TARGET_REPO: ${{ github.repository }}
         run: |
           ./.github/scripts/rewrite-repo-links.ps1 `
             -SourceRepo "NoM0Re/WoW-3.3.5a-Addons" `
-            -TargetRepo "NoM0Re/WoW-3.3.5a-Addons2"
+            -TargetRepo $env:TARGET_REPO
 
       - name: Show pending changes
         run: git status --short
@@ -52,6 +53,7 @@ jobs:
         uses: peter-evans/create-pull-request@v8
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          base: ${{ github.event.repository.default_branch }}
           branch: sync/upstream
           delete-branch: true
           title: "Sync upstream changes"
@@ -59,6 +61,8 @@ jobs:
           body: |
             Automated sync from `NoM0Re/WoW-3.3.5a-Addons`.
 
-            This PR merges upstream `main` and rewrites repository/page links back to this mirror:
-            `NoM0Re/WoW-3.3.5a-Addons2`.
+            This PR copies the upstream `main` tree and rewrites repository/page links to
+            `${{ github.repository }}`, including the website catalog and plugin READMEs.
+
+            The mirror's own `.github` configuration is preserved.
           labels: automated-sync
